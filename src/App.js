@@ -602,7 +602,7 @@ function About({ darkMode }) {
       {/* Bio */}
       <div className={`mb-8 p-6 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-blue-50 border border-blue-100'}`}>
         <p className={`text-lg leading-relaxed ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-          I'm Peter Chimbuto — an ICT professional from Malawi with a background spanning cybersecurity, infrastructure deployment, IT service management, and ATM operations. I started my career in hands-on technical support and have worked across government, financial services, and private sector environments. Along the way, I've become increasingly focused on security — not just as a discipline, but as something that underpins whether technology actually works for people.
+          I'm Peter Chimbuto, an ICT professional from Malawi with a background spanning cybersecurity, infrastructure deployment, IT service management, and ATM operations. I started my career in hands-on technical support and have worked across government, financial services, and private sector environments. Along the way, I've become increasingly focused on security, not just as a discipline, but as something that underpins whether technology actually works for people.
         </p>
       </div>
 
@@ -610,7 +610,7 @@ function About({ darkMode }) {
       <div className={`mb-12 p-6 rounded-lg border-l-4 ${darkMode ? 'bg-gray-900 border-blue-400' : 'bg-white border-blue-600 shadow-sm'}`}>
         <h2 className={`text-sm font-semibold uppercase tracking-widest mb-3 ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>What Drives Me</h2>
         <p className={`text-lg leading-relaxed ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-          I want to see technology in Malawi work reliably and securely for the people who depend on it — whether that's a government official processing tax records, a customer using an ATM, or a small business owner managing payments. That means building systems that don't fail, writing policies that get followed, and making security something organisations actually practice, not just talk about. I'm driven by both — making things work, and making them safe.
+          I want to see technology work reliably and securely for the people who depend on it and want to leverage it. That means building systems that don't fail, writing policies that get followed, and making security something organisations actually practice, not just talk about. I'm driven by both: making things work, and making them safe.
         </p>
       </div>
 
