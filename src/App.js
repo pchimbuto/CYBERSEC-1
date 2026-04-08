@@ -632,7 +632,7 @@ function About({ darkMode }) {
           },
           {
             title: 'Cybersecurity — Hands-On & Growing',
-            text: 'Alongside professional experience, I actively build cybersecurity skills through home lab projects including SIEM deployment with Wazuh and ELK Stack, Active Directory simulation, vulnerability assessment using Nessus, OWASP Top 10 labs, and bug bounty threat hunting on TryHackMe. I hold the Certified Network Security Practitioner (CNSP) certification and am pursuing CompTIA Security+.'
+            text: 'Alongside professional experience, I actively build cybersecurity skills through home lab projects including SIEM deployment with Wazuh and ELK Stack, Active Directory simulation, vulnerability assessment using Nessus, OWASP Top 10 labs, and bug bounty threat hunting on TryHackMe. I hold the Certified Network Security Practitioner (CNSP) certification and other ICT and Cybersecurity certifications.'
           }
         ].map((item, idx) => (
           <div key={idx} className={`p-6 rounded-lg border-l-4 ${darkMode ? 'bg-gray-800 border-blue-400' : 'bg-white border-blue-600'}`}>
