@@ -559,7 +559,7 @@ function Home({ setCurrentPage, darkMode }) {
           {[
             { label: 'BSc Computer Systems & Security', sub: 'Malawi University of Science and Technology (MUST)', badge: 'Degree', badgeColor: darkMode ? 'bg-blue-900 text-blue-300' : 'bg-blue-100 text-blue-700' },
             { label: 'Certified Network Security Practitioner (CNSP)', sub: 'The SecOps Group', badge: 'Certified', badgeColor: darkMode ? 'bg-green-900 text-green-300' : 'bg-green-100 text-green-700' },
-            { label: 'Certified Social Engineering Defence Practitioner (CSEDP)', sub: 'The SecOps Group', badge: 'Certified', badgeColor: darkMode ? 'bg-gray-900 text-gray-300' : 'bg-gray-100 text-gray-700' },
+            { label: 'Certified Social Engineering Defence Practitioner (CSEDP)', sub: 'The SecOps Group', badge: 'Certified', badgeColor: darkMode ? 'bg-green-900 text-green-300' : 'bg-green-100 text-green-700' },
             { label: 'CompTIA Security+', sub: 'CompTIA', badge: 'In Progress', badgeColor: darkMode ? 'bg-yellow-900 text-yellow-300' : 'bg-yellow-100 text-yellow-700' }
           ].map((item, idx) => (
             <div key={idx} className={`p-6 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white border border-gray-200'}`}>
@@ -619,15 +619,15 @@ function About({ darkMode }) {
       <div className="space-y-6 mb-12">
         {[
           {
-            title: 'ICT Support at Scale — Malawi Revenue Authority',
+            title: 'ICT Support — Malawi Revenue Authority',
             text: 'As ICT Support Officer at MRA, I provided technical support to over 1,500 staff, administered ManageEngine ServiceDesk Plus, and applied ITIL v4 practices to improve service quality. I developed automation scripts in PowerShell and Python to standardise software deployment, and implemented Nagios Core for network and printer monitoring.'
           },
           {
-            title: 'ATM Coordination — Gestetner (Ricotec)',
+            title: 'ATM Coordinator — Gestetner (Ricotec)',
             text: 'I oversaw the deployment and maintenance of NCR ATMs, CDMs, and NCMs for banking clients across Malawi, providing technical and operational support, ensuring SLA compliance, and facilitating communication between banks and service teams.'
           },
           {
-            title: 'ATM Operations Leadership — G4S Malawi',
+            title: 'ATM Operations Management — G4S Malawi',
             text: 'Currently supervising regional ATM management operations at G4S, I lead a team of ATM custodians, coordinate cash replenishment schedules, oversee reconciliation, and liaise with banks and service partners to ensure consistent, compliant service delivery.'
           },
           {
@@ -654,6 +654,12 @@ function About({ darkMode }) {
           },
           {
             title: 'Certified Network Security Practitioner (CNSP)',
+            institution: 'The SecOps Group',
+            badge: 'Certified',
+            badgeColor: darkMode ? 'bg-green-900 text-green-300' : 'bg-green-100 text-green-700'
+          },
+          {
+            title: 'Certified Social Engineering Defence Practitioner (CSEDP)',
             institution: 'The SecOps Group',
             badge: 'Certified',
             badgeColor: darkMode ? 'bg-green-900 text-green-300' : 'bg-green-100 text-green-700'
