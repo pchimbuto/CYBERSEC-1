@@ -31,7 +31,7 @@ Results: Organizations that invest in security culture see measurable improvemen
     id: 2,
     title: "ATM Security: Lessons from the Frontlines",
     category: "Technical",
-    date: "202-02-08",
+    date: "2026-02-08",
     readTime: "6 min read",
     excerpt: "ATMs remain critical infrastructure. Drawing from direct experience in ATM operations and security management, here are the key considerations for protecting these vital financial endpoints.",
     content: `Automated Teller Machines represent a unique intersection of physical and cyber security. Having managed ATM operations across multiple sites and banking clients, I've learned that protecting these devices requires a holistic approach.
