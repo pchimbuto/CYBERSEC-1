@@ -495,7 +495,7 @@ function Home({ setCurrentPage, darkMode }) {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className={`text-4xl md:text-5xl lg:text-6xl font-bold mb-6 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
-              Cybersecurity, ICT Infrastructure & Digital Resilience
+              IT Service Management, Cybersecurity, ICT Infrastructure & Digital Resilience
             </h1>
             <p className={`text-lg md:text-xl mb-8 leading-relaxed ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
               ICT professional based in Malawi with hands-on experience in cybersecurity, infrastructure deployment, IT service management, and ATM operations. Passionate about building secure, reliable systems and contributing to Malawi's growing digital economy.
@@ -632,7 +632,7 @@ function About({ darkMode }) {
           },
           {
             title: 'Cybersecurity — Hands-On & Growing',
-            text: 'Alongside professional experience, I actively build cybersecurity skills through home lab projects including SIEM deployment with Wazuh and ELK Stack, Active Directory simulation, vulnerability assessment using Nessus, OWASP Top 10 labs, and bug bounty threat hunting on TryHackMe. I hold the Certified Network Security Practitioner (CNSP) certification and other ICT and Cybersecurity certifications.'
+            text: 'Alongside professional experience, I actively build cybersecurity skills through home lab projects including SIEM deployment with Wazuh and ELK Stack, Active Directory simulation, vulnerability assessment using Nessus, OWASP Top 10 labs, and bug bounty threat hunting on TryHackMe. I hold the Certified Network Security Practitioner (CNSP) and the Certified Social Engineering Defence Practitioner (CSEDP) certifications, and I am currently working on my next ICT and Cybersecurity certifications.'
           }
         ].map((item, idx) => (
           <div key={idx} className={`p-6 rounded-lg border-l-4 ${darkMode ? 'bg-gray-800 border-blue-400' : 'bg-white border-blue-600'}`}>
