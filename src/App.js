@@ -417,7 +417,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-              © 2025 Peter Chimbuto. All rights reserved.
+              © 2026 Peter Chimbuto. All rights reserved.
             </div>
             <div className="flex items-center space-x-6">
               <a href="mailto:chimbutopeterk@gmail.com" className={`transition-colors ${darkMode ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-gray-900'}`}>
