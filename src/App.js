@@ -559,7 +559,7 @@ function Home({ setCurrentPage, darkMode }) {
           {[
             { label: 'BSc Computer Systems & Security', sub: 'Malawi University of Science and Technology (MUST)', badge: 'Degree', badgeColor: darkMode ? 'bg-blue-900 text-blue-300' : 'bg-blue-100 text-blue-700' },
             { label: 'Certified Network Security Practitioner (CNSP)', sub: 'The SecOps Group', badge: 'Certified', badgeColor: darkMode ? 'bg-green-900 text-green-300' : 'bg-green-100 text-green-700' },
-            { label: 'Certified Social Engineering Defence Practitioner (CSEDP)', sub: 'The SecOps Group', badge: 'Certified', badgeColor: darkMode ? 'bg-green-900 text-green-300' : 'bg-green-100 text-green-700' },
+            { label: 'Certified Social Engineering Defence Practitioner (CSEDP)', sub: 'The SecOps Group', badge: 'Certified', badgeColor: darkMode ? 'bg-gray-900 text-gray-300' : 'bg-gray-100 text-gray-700' },
             { label: 'CompTIA Security+', sub: 'CompTIA', badge: 'In Progress', badgeColor: darkMode ? 'bg-yellow-900 text-yellow-300' : 'bg-yellow-100 text-yellow-700' }
           ].map((item, idx) => (
             <div key={idx} className={`p-6 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white border border-gray-200'}`}>
