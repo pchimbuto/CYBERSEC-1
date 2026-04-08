@@ -7,7 +7,7 @@ const blogPosts = [
     title: "Building a Security-First Culture in African Organizations",
     excerpt: "Security awareness isn't just about technology—it's about people. Here's how organizations in Africa can build resilient security cultures from the ground up.",
     category: "Strategy",
-    date: "2025-01-15",
+    date: "2026-01-15",
     readTime: "8 min read",
     content: `Security incidents increasingly stem not from sophisticated attacks, but from basic human errors and lack of awareness. In my experience implementing security programs across African organizations, I've observed that the most significant security improvements come from cultural change, not just technical controls.
 
@@ -31,7 +31,7 @@ Results: Organizations that invest in security culture see measurable improvemen
     id: 2,
     title: "ATM Security: Lessons from the Frontlines",
     category: "Technical",
-    date: "2025-01-08",
+    date: "202-02-08",
     readTime: "6 min read",
     excerpt: "ATMs remain critical infrastructure. Drawing from direct experience in ATM operations and security management, here are the key considerations for protecting these vital financial endpoints.",
     content: `Automated Teller Machines represent a unique intersection of physical and cyber security. Having managed ATM operations across multiple sites and banking clients, I've learned that protecting these devices requires a holistic approach.
@@ -58,7 +58,7 @@ Monitoring and Response: Implement 24/7 monitoring of ATM networks. Anomaly dete
     id: 3,
     title: "OWASP Top 10: A Practical Guide for African Developers",
     category: "Awareness",
-    date: "2025-01-01",
+    date: "2026-03-01",
     readTime: "10 min read",
     excerpt: "The OWASP Top 10 provides crucial guidance for secure web development. Here's how to apply these principles in the African development context.",
     content: `The OWASP Top 10 represents the most critical security risks to web applications. For developers building the next generation of African digital services, understanding and addressing these risks is essential.
@@ -87,7 +87,7 @@ Practical Application: For each project, create a security checklist based on OW
     id: 4,
     title: "The State of Cybersecurity in Malawi: Challenges and Opportunities",
     category: "Strategy",
-    date: "2024-12-20",
+    date: "2025-12-20",
     readTime: "12 min read",
     excerpt: "An in-depth look at Malawi's cybersecurity landscape — current threats, regulatory gaps, and the path forward for building digital resilience.",
     content: `Malawi, like many African nations, stands at a critical juncture in its digital transformation journey. As government services move online, mobile money adoption accelerates, and businesses embrace cloud technologies, the need for robust cybersecurity has never been more urgent.
@@ -141,7 +141,7 @@ Getting Started: Pick one repetitive task that takes you more than 30 minutes pe
     id: 6,
     title: "SIEM on a Budget: Deploying Wazuh and ELK Stack",
     category: "Technical",
-    date: "2024-11-28",
+    date: "2026-1-28",
     readTime: "7 min read",
     excerpt: "You don't need a six-figure budget for security monitoring. Wazuh and ELK Stack give you enterprise-grade SIEM capabilities for free. Here's how to set it up.",
     content: `Security Information and Event Management (SIEM) is often seen as something only large enterprises can afford. The reality? Open-source tools like Wazuh and the ELK Stack (Elasticsearch, Logstash, Kibana) give you powerful, production-ready SIEM capabilities at no licensing cost.
@@ -203,7 +203,7 @@ const projects = [
   {
     title: "PowerShell & Python Deployment Automation",
     organization: "Malawi Revenue Authority (MRA)",
-    description: "Developed and deployed automation scripts in PowerShell and Python to standardise software deployment across 1,500+ endpoints, eliminating manual intervention and reducing human error. Scripts enforced consistent configurations and generated audit logs for compliance.",
+    description: "Developed and deployed automation scripts in PowerShell and Python to standardise software deployment across endpoints, eliminating manual intervention and reducing human error. Scripts enforced consistent configurations and generated audit logs for compliance.",
     technologies: ["PowerShell", "Python", "Active Directory", "Windows Server"],
     outcomes: [
       "Eliminated manual deployment errors across large staff base",
